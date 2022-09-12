@@ -416,7 +416,21 @@ header {
     transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
 } 
 
+/*Adaptive*/
+
 @media (max-width: 970px) {
+
+    .header-mobile {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        z-index: 99;
+        background: #fff;
+        display: block;
+        transition: 0.8s;
+        height: auto;
+    }
 
     .logo-wrap {
         display: flex;
@@ -429,6 +443,22 @@ header {
         padding: 6px 24px;
         flex-direction: column;
         align-items: flex-start;
+    }
+
+    .header-mobile .header-info {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 20px;
+        margin: 0;
+        margin: 20px 0;
+    }  
+
+    .header-mobile .menu-pict {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 20px;
+        margin: 0 0 20px;
     }
 
     /*Header*/
@@ -459,7 +489,7 @@ header {
         background: none;
     }
 
-     /* contac */
+     /* contact */
 
     .contact-container {
         display: flex;
