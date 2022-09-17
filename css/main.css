@@ -480,6 +480,59 @@ header {
     width: 100%;
 }
 
+/*Product*/
+
+/*contents*/
+
+.contents .greetings {
+    padding: 0 0 36px;
+}
+
+.contents-title {
+    background: var(--color-red);
+    height: 327px;
+    padding: 0 25px;
+}
+
+.contents-text {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 133.69%;
+    color: #fff;
+    padding: 74px 0 0;
+    max-width: 745px;
+    margin: auto;
+    text-align: center;
+}
+
+.contents-text-col {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 133.69%;
+    color: #fff;
+}
+
+/*product-descr */
+
+.product-descr {
+    padding: 0 25px;
+}
+
+.product-descr .chat-content {
+    margin: 35px auto 25px;
+    column-gap: 51px;
+}
+
+.product-descr .chat-text {
+    width: 47%;
+    margin: 0;
+}
+
+.product-descr .chat-img {
+    margin: 137px 0 0;
+    width: 54%;
+}
+
 /*Adaptive*/
 
 @media (max-width: 970px) {
