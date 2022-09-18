@@ -853,4 +853,42 @@ header {
         margin: 0 -5px;
         width: auto;
     }
+
+     /*contents*/
+
+     .contents .greetings {
+        padding: 0 0 24px;
+    }
+
+     .contents-title {
+        display: flex;
+    }
+
+    .contents-text {
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 133.69%;
+        padding: 0;
+    }
+
+    .contents-text-col {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 133.69%;
+    }
+
+    .product-descr .chat-content {
+        margin: 17px 0 0;
+    }
+    
+    .product-descr .chat-text {
+        width: auto;
+        height: auto;
+        margin: 0 0 20px;
+    }
+    
+    .product-descr .chat-img {
+        margin: 30px -5px 0;
+        width: 92%;
+    }
 }
