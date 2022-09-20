@@ -533,6 +533,107 @@ header {
     width: 54%;
 }
 
+/*Technology*/
+
+/*knowledge*/
+
+.knowledge-container {
+    background-image: url(../images/technology/tech.png);
+    background-repeat: no-repeat;
+    background-size: 100% 77%;
+    padding: 0 24px;
+}
+
+.knowledge-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.knowledge-text {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 140.69%;
+    color: #fff;
+    max-width: 823px;
+    padding: 82px 0 0 0;
+    text-align: center;
+    margin: 0 auto 24px;
+}
+
+.knowledge-text-col {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140.69%;
+    color: #fff;
+}
+
+.knowledge-btn {
+    display: inline-block;
+    background: #FFFFFF;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    color: var(--color-red);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    padding: 12px 32px;
+}
+
+.knowledge-img {
+    margin: 48px 0 31px;
+    text-align: center;
+}
+
+.knowledge-img img {
+    height: auto;
+    max-width: 100%;
+}
+
+/*languages*/
+
+.languages {
+    padding: 0 24px;
+}
+
+.languages-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.languages-img {
+    display: flex;
+    max-width: var(--max-page-width);
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 0 35px;
+    margin: 43px auto 31px;
+    width: 100%;
+}
+
+.languages .chat-text {
+    max-width: var(--max-page-width);
+    margin: 0 0 -23px;
+    width: auto;
+}
+
+.languages .chat-text h2 {
+    margin: 0;
+}
+
+.languages .greetings-text-main {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140.69%;
+}
+
+.languages .greetings-text-title .greetings-text-main {
+    color: #263238;
+}
+
 /*Adaptive*/
 
 @media (max-width: 970px) {
