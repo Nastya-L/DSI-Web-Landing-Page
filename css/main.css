@@ -992,4 +992,58 @@ header {
         margin: 30px -5px 0;
         width: 92%;
     }
+
+     /*Technology*/
+
+     /*knowledge*/
+
+     .knowledge-container {
+        background-size: 100% 100%;
+    }
+
+    .knowledge-text {
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 133.69%;
+        margin: 0;
+        padding: 67px 0 0;
+    }
+
+    .knowledge-text-col {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 133.69%;
+    }
+
+    .knowledge-btn {
+        display: none;
+    }
+
+    .knowledge-img {
+        margin: 90px 10px 48px;
+    }
+
+    /*languages*/
+
+    .languages-img {
+        margin: 0px auto 50px;
+        padding: 0;
+    }
+
+    .languages-img img {
+        height: 48px;
+        width: 48px;
+    }
+
+    .languages .chat-text {
+        margin: 0 0 29px;
+    }
+
+    .languages .greetings-text-main {
+        margin: 0;
+    }
+
+    .languages .chat-text img {
+        margin: 23px 0 31px;
+    }
 }
