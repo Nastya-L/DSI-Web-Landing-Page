@@ -1338,4 +1338,152 @@ header {
     .languages .chat-text img {
         margin: 23px 0 31px;
     }
+
+    /*About*/
+
+    /*about-greetings*/
+
+    .about-greetings .greetings-container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        height: 394px;
+    }
+
+    .about-greetings .greetings-img {
+        margin: 0px 83px;
+    }
+
+    .about-greetings .greetings-text {
+        width: auto;
+        margin: 5px 0 39px 0;
+    }
+
+    .about-greetings .greetings-text-title {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 133.69%;
+    }
+
+    .about-greetings .greetings-text-name {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 133.69%;
+    }
+
+    /*about-text*/
+
+    .about-text {
+        margin: 0;
+    }
+
+    .about-text .chat-text {
+        margin: 24px 0 30px;
+    }
+
+    .about-text .greetings-text-main {
+        text-align: justify;
+    }
+
+    /*about-perspect*/
+
+    .about-perspect {
+        background: #ffff;
+    }
+
+    .perspect-container {
+        height: auto;
+        grid-template-columns: 1fr;
+    }
+
+    .perspect-text {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        margin: 24px 0 8px 0;
+    }
+
+    .perspect-title {
+        margin: 12px 0 28px 0;
+    }
+
+    .perspect-text-main {
+        width: auto;
+        margin: 0 0 35px;
+    }
+
+    .perspect-text-deskr {
+        margin: 7px 0 0 57px;
+    }
+
+    .perspect-video {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    
+    /*culture*/
+
+    .culture {
+        margin: auto;
+    }
+
+    .culture .chat-content {
+        display: flex;
+        flex-direction: column;
+        margin: 0 10px;
+    }
+
+    .culture .chat-text {
+        width: auto;
+        margin: 0;
+    }
+
+    .culture .chat-text h2 {
+        margin: 20px 0 0;
+    }
+
+    .culture .greetings-text-main {
+        margin: 46px 0 32px 0;
+    }
+
+    .culture .chat-img {
+        margin: 0 0 32px 0;
+        width: auto;
+    }
+
+    /*connection*/
+
+    .connection {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 37px 0 0;
+    }
+    
+    .connection-container {
+        display: flex;
+        flex-direction: column;
+        margin: 32px auto 36px;
+        gap: 0;
+    }
+
+    .connection-text {
+        width: auto;
+        margin: 5px 0 5px 4px;
+    }
+    
+    .connection-video {
+        width: auto;
+    }
+    
+    .connection-text-main-email {
+        margin: 8px 0 6px 0px;
+    }
+    
+    .connection-text-main-telpon {
+        margin: 20px 0 0;
+    }
 }
