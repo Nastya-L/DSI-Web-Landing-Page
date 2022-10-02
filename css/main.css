@@ -1261,6 +1261,87 @@ header {
         width: auto;
         max-width: 30%;
     }
+
+    /*Client*/
+
+    /*deliver*/
+
+    .deliver-container {
+        display: flex;
+        align-items: center;
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        background: #F6F6F6;
+    }
+
+    .deliver-text {
+        width: 331px;
+        margin: 0;
+    }
+
+    .deliver-text-title {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 140.69%;
+        margin: 31px 0 0 0;
+    }
+
+    .deliver-text-col {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 140.69%;
+    }
+
+    .deliver-img {
+        display: flex;
+        align-items: flex-end;
+        align-self: auto;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .deliver-cub {
+        position: static;
+    }
+
+    /*testimonial*/
+
+    .review-text img {
+        width: 10%;
+    }
+
+    .review {
+        display: flex;
+        flex-direction: column;
+        margin: 49px auto 24px;
+    }
+
+    .review-img {
+        margin: 0;
+    }
+
+    .review-text {
+        width: auto;
+        margin: 22px 0 36px;
+    }
+
+    .review-text-descr {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 36px;
+        margin: 15px 0;
+    }
+
+  .review-arrow-left {
+        align-self: flex-start;
+        margin: 188px 0 0 -24px
+    }
+
+    .review-arrow-right {
+        align-self: flex-start;
+        margin: 188px -24px 0 0;
+    }
 }
 
 @media (max-width: 810px) {
@@ -1707,5 +1788,61 @@ header {
     
     .connection-text-main-telpon {
         margin: 20px 0 0;
+    }
+
+    /*client*/
+
+    .client-container .greetings-text-title {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 140.69%;
+    }
+
+    .bank-btn,
+    .bank-bpr,
+    .bank-masp {
+        display: flex;
+        flex-direction: column;
+        padding: 0 24px;
+        width: auto;
+        gap: 0;
+    }
+
+    .bank-btn {
+        padding: 0 24px 36px;
+    }
+
+    .bank-bpr {
+        padding: 0 24px 61px;
+    }
+
+    .bank-bpr .bank-img {
+        margin: 50px auto 0;
+    }
+
+    .bank-masp {
+        padding: 0 24px 49px;
+    }
+
+    .bank-img {
+        margin: 50px auto 24px;
+        width: auto;
+    }
+
+    .bank-text {
+        width: auto;
+        margin: auto;
+    }
+
+    .bank-text-title {
+        margin: 0 0 16px 0;
+    }
+
+    .bank-bpr .bank-text-title {
+        margin: 10px 0 16px;
+    }
+
+    .bank-masp .bank-text-title {
+        margin: 0;
     }
 }
