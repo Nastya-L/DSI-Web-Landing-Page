@@ -1148,6 +1148,128 @@ header {
     background: #fff;
 }
 
+/*Partner*/
+
+/*explain*/
+
+.explain-container {
+    background: #F9F9F9;
+    padding: 0 24px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.explain-text {
+    margin: 102px auto;
+    max-width: 858px;
+}
+
+.explain-text-title {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 140.69%;
+    color: #263238;
+    margin: 0 0 24px 0;
+}
+
+.explain-text-title-col {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140.69%;
+    color: #263238;
+}
+
+.explain-text-descr {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140.69%;
+    color: #455A64;
+    margin: 0;
+    padding: 0 40px;
+}
+
+.explain-cub-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.explain-cub-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.explain-cub-left
+.explain-cub-right img {
+    width: 100%;
+}
+
+/*partners*/
+
+.partners-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.partners-container::after {
+    content: url(../images/partner/Side\ Shape.png);
+    position: absolute;
+    left: 0;
+    top: 257px;
+    z-index: -1;
+}
+
+.partners-container::before {
+    content: url(../images/partner/Side\ Shape\ Circle.png);
+    position: absolute;
+    right: 0;
+    bottom: 93px;
+    z-index: -1;
+}
+
+.partners-container .greetings-text-title {
+    margin: 50px 0 0 0;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 140.69%;
+}
+
+.partners-line {
+    display: flex;
+    gap: 83px;
+    margin: 60px 60px 67px;
+    max-width: var(--max-page-width);
+}
+
+.partners-colum {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.partners-img {
+    margin: 32px 35px 23px 35px;
+}
+
+.partners-img img {
+    width: 100%;
+}
+
+.partners-colum-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140.69%;
+    color: #263238;
+    margin: 0 26px 52px;
+}
+
 /*Adaptive*/
 
 @media (max-width: 970px) {
