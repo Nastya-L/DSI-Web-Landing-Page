@@ -1967,4 +1967,68 @@ header {
     .bank-masp .bank-text-title {
         margin: 0;
     }
+
+    /*Partner*/
+
+    /*explain*/
+
+    .explain-text {
+        margin: 42px -15px 42px;
+    }
+
+    .explain-text-title {
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 140.69%;
+        margin: 0 0 16px 0;
+    }
+
+    .explain-text-title-col {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 140.69%;
+    }
+
+    .explain-text-descr {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140.69%;
+        padding: 0;
+    }
+
+    .explain-cub-right {
+        width: 72px;
+        height: 82px;
+        overflow: hidden;
+    }
+
+    .explain-cub-left {
+        display: none;
+    }
+
+    /*partners*/
+
+    .partners-container::after {
+        top: 546px;
+    }
+
+    .partners-container::before {
+        bottom: 379px;
+    }
+
+    .partners-container .greetings-text-title {
+        margin: 56px 0 0;
+    }
+
+    .partners-line {
+        display: flex;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        margin: 85px 40px 67px;
+    }
+
+    .partners-colum-text {
+        margin: 0 33px 52px;
+    }
 }
